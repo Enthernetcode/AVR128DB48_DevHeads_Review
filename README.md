@@ -86,7 +86,7 @@ void blink_led() {
     }
 }
 ```
-###Example 2: UART Communication
+### Example 2: UART Communication
 ```c
 /* This example demonstrates basic UART communication */
 void uart_communication() {
@@ -99,7 +99,7 @@ void uart_communication() {
     uart_receive_string(UART_PORT, received_message, 100);
 }
 ```
-###Example 3: ADC Reading
+### Example 3: ADC Reading
 ```c
 /* This example shows how to read a value from the ADC */
 void adc_reading() {
